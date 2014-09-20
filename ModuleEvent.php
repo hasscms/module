@@ -1,8 +1,20 @@
 <?php
+/**
+ * HassCMS (http://www.hassium.org/)
+ *
+ * @link      http://github.com/hasscms for the canonical source repository
+ * @copyright Copyright (c) 2014-2099  Hassium  Software LLC.
+ * @license   http://www.hassium.org/license/new-bsd New BSD License
+ */
 namespace hasscms\module;
 
 use \yii\base\Event;
 
+/**
+ * @author zhepama <zhepama@gmail.com>
+ * @date 2014-9-20 下午11:27:00
+ * @since 1.0
+ */
 class ModuleEvent extends Event
 {
     /**

@@ -1,4 +1,12 @@
 <?php
+/**
+ * HassCMS (http://www.hassium.org/)
+ *
+ * @link      http://github.com/hasscms for the canonical source repository
+ * @copyright Copyright (c) 2014-2099  Hassium  Software LLC.
+ * @license   http://www.hassium.org/license/new-bsd New BSD License
+ */
+
 namespace hasscms\module\behaviors;
 
 use yii\base\Behavior;
@@ -7,10 +15,13 @@ use yii\di\Container;
 use yii\base\ErrorException;
 use yii\helpers\ArrayHelper;
 
+
 /**
  *
- * @author zhepama
  *
+ * @author zhepama <zhepama@gmail.com>
+ * @date 2014-9-20 下午11:22:21
+ * @since 1.0
  */
 class ContainerBehavior extends Behavior
 {
